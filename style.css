@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+#home {background-image: url( "pozadina.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+ #contact {background-image: url( "pozadina3.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+ #recommendations {background-image: url( "pozadina4.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+#h1 {font-family: "LaviossaMedium";
+	font-size: 20px; 
+	background-color: beige;
+	padding: 6px;
+	
+	
+}
+
+h2 {font-family: "LaviossaMedium";
+font-size: 100px;
+	margin-left: 325px;
+	margin-top: 175px;
+	
+} 
+@font-face {
+    font-family: LaviossaMedium;
+    src: url(  "LaviossaMedium.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#header ol.prvi {
+    font-family: LaviossaMedium;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+#header ol.prvi li {
+    display: inline;
+    background-color: darkgray;
+
+    margin-left: 3px;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+#link , #link2 , #link3 {color:black;}
+
+
+#lista .prva {
+	font-family: LaviossaMedium;
+    font-size: 20px;
+    color: black;
+
+    list-style-type: upper-alpha;
+}
+
+#lista .prva em  {color: saddlebrown;
+    font: bold italic 26px/1em "LaviossaMedium";
+}
+
+#naslov {font-family: LaviossaMedium;
+	font-size: 50px;}
+
+#contactlist {
+	font-family: 'Comfortaa', cursive;
+	font-size: 30px;
+	
+}
